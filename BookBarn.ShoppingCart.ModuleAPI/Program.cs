@@ -47,17 +47,6 @@ namespace BookBarn.ShoppingCart.ModuleAPI
                 };
             });
 
-            // Add CORS services
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowSpecificOrigin",
-                    policyBuilder =>
-                    {
-                        policyBuilder.WithOrigins("https://your-allowed-origin.com")
-                                     .AllowAnyMethod()
-                                     .AllowAnyHeader();
-                    });
-            });
 
             //add depencies to inject
             builder.Services.AddTransient<CartDbContext>();
@@ -90,7 +79,12 @@ namespace BookBarn.ShoppingCart.ModuleAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseCors("AllowSpecificOrigin");
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyHeader();
+                builder.AllowAnyMethod();
+                builder.AllowAnyOrigin();
+            });
 
             app.UseAuthentication();
             app.UseAuthorization();
