@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookBarn.ShoppingCart.ModuleAPI", "BookBarn.ShoppingCart.ModuleAPI\BookBarn.ShoppingCart.ModuleAPI.csproj", "{029EC753-3BC8-46B8-9AF2-72445146505C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiLayer", "ApiLayer", "{D2C3B477-E145-411A-B5B1-7D912C596B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{3F2EDD38-F665-4BF6-B39F-6FCB4FD6724A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookBarn.ShoppingCartModule.Data", "BookBarn.ShoppingCartModule.Data\BookBarn.ShoppingCartModule.Data.csproj", "{3610566C-934E-403A-A0AA-3E732E571AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domainlayer", "Domainlayer", "{77F95EAB-100E-4119-A5ED-A098DFA828D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookBarn.ShoppingCartModule.Domain", "BookBarn.ShoppingCartModule.Domain\BookBarn.ShoppingCartModule.Domain.csproj", "{48480B67-FDC7-47BE-9748-6A030C915100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029EC753-3BC8-46B8-9AF2-72445146505C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029EC753-3BC8-46B8-9AF2-72445146505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029EC753-3BC8-46B8-9AF2-72445146505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029EC753-3BC8-46B8-9AF2-72445146505C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3610566C-934E-403A-A0AA-3E732E571AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3610566C-934E-403A-A0AA-3E732E571AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3610566C-934E-403A-A0AA-3E732E571AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3610566C-934E-403A-A0AA-3E732E571AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48480B67-FDC7-47BE-9748-6A030C915100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48480B67-FDC7-47BE-9748-6A030C915100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48480B67-FDC7-47BE-9748-6A030C915100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48480B67-FDC7-47BE-9748-6A030C915100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{029EC753-3BC8-46B8-9AF2-72445146505C} = {D2C3B477-E145-411A-B5B1-7D912C596B1A}
+		{3610566C-934E-403A-A0AA-3E732E571AB5} = {3F2EDD38-F665-4BF6-B39F-6FCB4FD6724A}
+		{48480B67-FDC7-47BE-9748-6A030C915100} = {77F95EAB-100E-4119-A5ED-A098DFA828D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19DEE95F-18DB-4780-8002-7CCC17F68361}
+	EndGlobalSection
+EndGlobal

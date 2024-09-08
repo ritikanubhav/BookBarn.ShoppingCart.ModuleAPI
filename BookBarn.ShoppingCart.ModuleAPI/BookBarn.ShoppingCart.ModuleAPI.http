@@ -1,0 +1,6 @@
+@BookBarn.ShoppingCart.ModuleAPI_HostAddress = http://localhost:5048
+
+GET {{BookBarn.ShoppingCart.ModuleAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
